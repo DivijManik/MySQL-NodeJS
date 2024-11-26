@@ -2,8 +2,7 @@
  MySQL & api in JavaScript
 
 # models
- - user.js
- - post.js
+ - post (models/post.js)
 
 # migrate models to database
 
@@ -13,6 +12,8 @@
 
 # Get posts
  url - `localhost:3000/posts`
+
+ api code - (routes/posts.js)
 
 # Post posts
   url - `localhost:3000/posts`
