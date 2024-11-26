@@ -15,7 +15,7 @@
 # Post posts
   url - http://localhost:3000/posts
 
-### Json Model for Post requests
+**Json Model for Post requests**
 {\
     "title": "My Blog Title",\
     "content": "This is my first blog post",\
