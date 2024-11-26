@@ -4,10 +4,10 @@ const models = require('../models');
 const router = express.Router()
 
 router.get("/", (req, res) => {
-    // models.Post.findOrCreate().then(result => {
-    //     res.send(result.toJSON()).status(201);
-    // })
-    res.send("Posts").status(201)
+    models.Post.findAll().then(result => {
+        res.json(result).status(200);
+    })
+    // res.send("Posts Page").status(201)
 })
 
 router.post("/", (req, res) => {
