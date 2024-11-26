@@ -10,10 +10,10 @@
  sequelize db:migrate
 
 # Get posts
- url - http://localhost:3000/posts
+ url - localhost:3000/posts
 
 # Post posts
-  url - http://localhost:3000/posts
+  url - localhost:3000/posts
 
 **Json Model for Post requests**
 
