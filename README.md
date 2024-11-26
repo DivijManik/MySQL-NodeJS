@@ -6,8 +6,10 @@
  - post.js
 
 # migrate models to database
-## Command
- sequelize db:migrate
+
+**Command**
+
+ `sequelize db:migrate`
 
 # Get posts
  url - `localhost:3000/posts`
