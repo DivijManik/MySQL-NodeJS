@@ -1,0 +1,15 @@
+{
+  "name": "mysql-nodejs",
+  "version": "1.0.0",
+  "description": "MySql with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Divij Manik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "sequelize": "^6.37.5"
+  }
+}
